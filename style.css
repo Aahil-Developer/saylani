@@ -1,0 +1,252 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    margin-top: 1.4rem;
+    width: Fixed (1,440px)px;
+    padding: 0px 100px 0px 100px;
+     gap: 0px;
+     opacity: 0px;
+
+}
+.navbar  ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+.navbar ul li{
+    font-weight: 400px;
+    font-size:20px ;
+    line-height: 28px;
+    font-family: "Space Grotesk";
+}
+.navbar ul li img{
+    width: 170.62px;
+height: 28.56px;
+
+}
+
+.navbar ul li button{
+       width:231px ;
+       height: 68px ;
+       padding: 20px, 35px, 20px, 35px;
+       border-radius: 14px;
+       border: 1px solid black;
+       background-color: none;
+       font-weight: 400px;
+       font-size:20px ;
+       line-height: 28px;
+       font-family: "Space Grotesk";
+}
+.second{
+    margin-left: 6rem;
+    margin-top: 2rem;
+    
+}
+.second .para1{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 76.56px;
+    font-family:"Space Grotesk";
+}
+.second .para2{
+    font-family:"Space Grotesk" ;
+    font-size:20px ;
+    font-weight: 400;
+    line-height: 28px;
+}
+.second .img{
+    margin-left: 66rem;
+    margin-top: -28rem;
+}
+.second button{
+    width:264px;
+    height: 68px;
+    border-radius: 14px;
+    padding: 20px, 35px, 20px, 35px;
+    gap:10px ;
+    background-color: #191A23;
+    color: white;
+    margin-top: 2rem;
+}
+.company-logos{
+    margin-left:-5rem;
+   
+}
+.company-logos ul{
+    display: flex;
+    list-style: none;
+}
+.company-logos ul li img{
+    margin-left: 5.3rem;
+}
+.services{
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 0.5rem;
+ 
+   
+}
+.services button{
+    width:178px ;
+    height:51px ;
+    border-radius: 7px;
+    border:none ;
+    gap:10px ;
+    padding:0px, 7px, 0px, 7px ;
+    background-color: #B9FF66;
+    color: black;
+    font-size: 40px;
+}
+
+.services p{
+    margin-top: 2.1rem;
+    margin-left: 3rem;
+    font-size: 18px;
+    font-family: "Space Grotesk";
+    font-weight: 400;
+    line-height: 22.97px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -6rem;
+    margin-top: 6rem;
+}
+.boxes .box1,.boxes .box2{
+    width:600px ;
+    height:310px ;
+    border-radius:41px ;
+    border: 1px solid #F3F3F3;
+    padding: 50px;
+     box-shadow: 0px 5px 0px 0px #191A23;
+    
+}
+.box1,.box2{
+    display: flex;
+
+}
+.cycle p{
+    display: flex;
+    font-size: 20px;
+    font-family: "Space Grotest";
+    font-weight:400 ;
+    line-height: 28px;
+    margin-top: 8rem;
+    align-items: center;
+    gap: 20px;
+}
+.cycle .cy{
+width: 210px;
+height: 147.62px;
+top: 2px;
+gap: 0px;
+opacity: 0px;
+
+}
+.box2{
+    background-color: #B9FF66;
+}
+.working{
+    display: flex;
+    margin-top: 4rem;
+    margin-left: 6rem;
+    align-items: center;
+}
+.working button{
+   background-color:#B9FF66;
+   width:412px ;
+   height: 51px;
+   font-size: 40px;
+   font-weight: 400;
+   padding: 0px, 7px, 0px, 7px;
+   border-radius: 14px;
+   border: none;
+}
+.working p{
+  font-size: 18px;
+  font-family: "Space Grotesk";
+  font-weight: 400;
+  line-height:22.97px;
+  margin-left: 3rem;
+}
+.cardes{
+    margin-top: 9rem;
+    margin-left: 6rem;
+}
+.cardes .card1{
+    position: relative;
+    left:15%;
+       width:1234px ;
+       height: 279px;
+       padding: 41px, 60px, 41px, 60px;
+      background-color:#B9FF66 ;
+      border-radius: 45px;
+      border: 1px solid #191A23 ;
+      box-shadow: 0px 5px 0px 0px #191A23;
+      gap: 30px;
+
+    }
+    .card1 p{
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 38.28px;
+        font-family: "Space Grotesk";
+        margin-left: 3rem;
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+    }
+.card1 span{
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 76.56px;
+    font-family: "Space Grotesk";
+    gap: 10;
+     
+}
+.card1 img{
+    margin-left: 70%;
+}
+
+.card1 .line{
+    width: 1114px;
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-top: 3rem;
+}
+.card1 .hel{
+    font-family: "Space Grotesk";
+    font-size: 18px;
+    font-weight:400 ;
+
+}
+.card2{
+       width:1234px ;
+    height: 159px;
+    background-color:#F3F3F3 ;
+    border-radius:45px ;
+    border: 1px solid #191A23;
+    box-shadow: 0px 5px 0px 0px #191A23;
+    position: relative;
+    left:15%;
+    margin-top: 3rem;
+
+}
+.card2 span{
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 76.56px;
+    font-family: "Space Grotesk";
+    gap: 10;
+     
+}
+.card2 img{
+    margin-left: 70%;
+}
